@@ -21,3 +21,35 @@
 | -------------- | ------- |
 | macOS Monterey | 12.2.1  |
 | OpenCore       | v0.7.9  |
+
+## Status
+ 
+<strong>What's working ✅</strong>
+
+- [x] Battery percentage
+- [x] Bluetooth - Intel Wireless-AC 9560 
+- [x] Wifi - Intel Wireless AX201
+- [x] CPU power management
+- [x] GPU UHD hardware acceleration / performance 
+- [x] iMessage, FaceTime, App Store, iTunes Store
+- [x] Keyboard `Volume / brightness hotkeys / backlit hotkeys'
+- [x] Audio -  ALC 257`
+- [x] Sleep/Wake `screen flickering after wake up`
+- [x] TouchPad `1-3 fingers swipe gestures but seem to not work perfectly` 
+- [x] TrackPoint  `jerky motion`
+- [x] USB Ports 
+- [x] Camera 
+- [x] Backlit keyboard
+
+
+  
+<strong>What's not working ⚠️</strong>
+
+- [ ] Microphone
+- [ ] Fingerprint reader
+
+<strong>Untested</strong>
+
+- [ ] HDMI
+- [ ] SD Card reader
+
