@@ -17,7 +17,7 @@
 
 | Component      | Version |
 | -------------- | ------- |
-| macOS Monterey | 12.2.1  |
+| macOS Monterey | 12.0.1  |
 | OpenCore       | v0.7.9  |
 
 ## Status
