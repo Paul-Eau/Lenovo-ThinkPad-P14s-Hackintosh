@@ -30,7 +30,7 @@
 - [x] CPU power management
 - [x] GPU UHD hardware acceleration / performance 
 - [x] iMessage, FaceTime, App Store, iTunes Store
-- [x] Keyboard `Volume / brightness hotkeys / backlit hotkeys'
+- [x] Keyboard `Volume / brightness hotkeys / backlit hotkeys`
 - [x] Audio -  ALC 257`
 - [x] Sleep/Wake `screen flickering after wake up`
 - [x] TouchPad `1-3 fingers swipe gestures but seem to not work perfectly` 
