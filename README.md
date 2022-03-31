@@ -24,7 +24,7 @@
 
 ## Status
  
-<strong>What's working ✅</strong>
+<strong>Working ✅</strong>
 
 - [x] Battery percentage
 - [x] Bluetooth - Intel Wireless-AC 9560 
@@ -43,7 +43,7 @@
 
 
   
-<strong>What's not working ⚠️</strong>
+<strong>Not working ⚠️</strong>
 
 - [ ] Microphone
 - [ ] Fingerprint reader
