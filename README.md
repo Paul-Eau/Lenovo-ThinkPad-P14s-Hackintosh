@@ -44,6 +44,7 @@
 <strong>Not working ⚠️</strong>
 
 - [ ] Microphone
+- [ ] Airdrop
 - [ ] Fingerprint reader
 
 <strong>Untested</strong>
