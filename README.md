@@ -72,7 +72,7 @@
 
 <strong>Problem</strong>
 
-- Using OneKeyHiDpi for HiDpi resolution : underscaled and screen blinking black after sleep
+- Using OneKeyHiDPI for HiDPI resolution : underscaled and screen blinking black after sleep
 
 
 ![about this mac](https://user-images.githubusercontent.com/52856465/162455103-23224e4f-fa50-4dfa-8e47-155405b4207b.png)
