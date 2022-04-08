@@ -1,43 +1,54 @@
 # Lenovo-ThinkPad-P14s-Hackintosh
  
+## Hardware configuration
 
 | Category  | Component                                            | Note                                                         |
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------ |
-| CPU       | Intel Core i7-10510U                                 |                                                              |
+| CPU       | Intel Core i7-10510U                                 |                                                            |
 | GPU       | Intel UHD 620                                        |                                                              |
 | SSD       | WD SN550 256GB                                       |                                                              |
 | Screen    | 14" FHD 1920x1080                                    |                                                              |
 | Memory    | 16GB / 2666MHz DDR4                                  |                                                              |
-| Battery   | Integrated Li-Polymer 50Wh                           |                                                              |
+| Battery   | Integrated Li-Polymer 50Wh                           | `~ 4h30 of battery life, maybe it could be better `          |
 | Camera    | 720p Camera                                          |                                                              |
 | Wifi & BT | Intel AX 201                                         |                                                              |
-| Input     | PS2 Keyboard & SYNAPTIC TrackPad                     |                                                              |
+| Input     | PS2 Keyboard                                         | `Volume and microphone hotkeys / brightness hotkeys / backlit hotkeys`                                                              |
+| Input     | Synaptics SMBUS TrackPad                             | `Multi-point fingers gestures works perfectly`               |
+| Input     | SMBUS TrackPoint                                     | `Work perfectly : same feeling as on Windows 10`             |
 | Audio     | Realtek ALC 257                                      |                                                              |
 
+## Software Configuration
 
 | Component      | Version |
 | -------------- | ------- |
 | macOS Monterey | 12.0.1  |
-| OpenCore       | v0.7.9  |
+| OpenCore       | 0.7.9   |
+
+
+
 
 ## Status
+
+
  
 <strong>Working ✅</strong>
 
 - [x] Battery percentage
-- [x] Bluetooth - Intel Wireless-AC 9560 
+- [x] Bluetooth - Intel Wireless AX201 
 - [x] Wifi - Intel Wireless AX201
-- [x] CPU power management
-- [x] GPU UHD hardware acceleration / performance 
-- [x] iMessage, FaceTime, App Store, iTunes Store
-- [x] Keyboard `Volume / brightness hotkeys / backlit hotkeys`
-- [x] Audio -  ALC 257`
-- [x] Sleep/Wake `screen flickering after wake up`
-- [x] TouchPad `1-3 fingers swipe gestures but seem to not work perfectly` 
-- [x] TrackPoint  `jerky motion`
+- [x] CPU power management (<1 W at IDLE)
+- [x] iGPU UHD hardware acceleration / performance 
+- [x] iServices
+- [x] Keyboard
+- [x] Speaker 
+- [x] Sleep/Wake 
+- [x] TouchPad  
+- [x] TrackPoint  
 - [x] USB Ports 
 - [x] Camera 
 - [x] Backlit keyboard
+- [x] External display over HDMI
+
 
 
   
@@ -45,10 +56,17 @@
 
 - [ ] Microphone
 - [ ] Airdrop
+- [ ] SD Card reader
 - [ ] Fingerprint reader
+
+
 
 <strong>Untested</strong>
 
-- [ ] HDMI
 - [ ] SD Card reader
 
+
+
+<strong>Problem</strong>
+
+- Using OneKeyHiDpi for HiDpi resolution : underscaled and screen blinking black after sleep
