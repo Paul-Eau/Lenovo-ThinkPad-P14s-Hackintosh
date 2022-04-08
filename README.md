@@ -40,19 +40,13 @@
 - [x] CPU power management (<1 W at IDLE)
 - [x] iGPU UHD hardware acceleration / performance 
 - [x] iServices
-- [x] Keyboard
-- [x] Speaker 
 - [x] Sleep/Wake 
 - [x] TouchPad  
 - [x] TrackPoint  
-- [x] CPU power management
-- [x] GPU UHD hardware acceleration / performance 
-- [x] iMessage, FaceTime, App Store, iTunes Store
 - [x] Keyboard 
 - [x] Speakers
+- [x] Jack 3.5 (speaker + microphone)
 - [x] Sleep/Wake 
-- [x] TouchPad 
-- [x] TrackPoint  
 - [x] USB Ports 
 - [x] Camera
 - [x] SD Card reader 
@@ -64,9 +58,9 @@
 
 <strong>Not working ⚠️</strong>
 
-- [ ] Microphone (in and external)
+- [ ] Inline microphone
 - [ ] Airdrop
-- [ ] Hibernation
+- [ ] Hibernation (desactivated)
 - [ ] Fingerprint reader
 
 
