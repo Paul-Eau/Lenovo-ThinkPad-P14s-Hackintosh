@@ -54,7 +54,8 @@
 - [x] TouchPad 
 - [x] TrackPoint  
 - [x] USB Ports 
-- [x] Camera 
+- [x] Camera
+- [x] SD Card reader 
 - [x] Backlit keyboard
 - [x] External display over HDMI
 
@@ -65,7 +66,6 @@
 
 - [ ] Microphone (in and external)
 - [ ] Airdrop
-- [ ] SD Card reader
 - [ ] Hibernation
 - [ ] Fingerprint reader
 
