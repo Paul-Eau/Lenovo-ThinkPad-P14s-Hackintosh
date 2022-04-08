@@ -36,7 +36,6 @@
 - [x] Battery percentage
 - [x] Bluetooth - Intel Wireless AX201 
 - [x] Wifi - Intel Wireless AX201
-<<<<<<< HEAD
 - [x] CPU power management (<1 W at IDLE)
 - [x] iGPU UHD hardware acceleration / performance 
 - [x] iServices
@@ -45,7 +44,6 @@
 - [x] Sleep/Wake 
 - [x] TouchPad  
 - [x] TrackPoint  
-=======
 - [x] CPU power management
 - [x] GPU UHD hardware acceleration / performance 
 - [x] iMessage, FaceTime, App Store, iTunes Store
@@ -54,7 +52,6 @@
 - [x] Sleep/Wake `screen flickering after wake up`
 - [x] TouchPad `1-3 fingers swipe gestures`
 - [x] TrackPoint  `not smooth as Windows`
->>>>>>> eff0dc2ef2ddbe8e32f31ab6cbf624c406a4ec32
 - [x] USB Ports 
 - [x] Camera 
 - [x] Backlit keyboard
@@ -67,18 +64,14 @@
 
 - [ ] Microphone (in and external)
 - [ ] Airdrop
-<<<<<<< HEAD
 - [ ] SD Card reader
-=======
 - [ ] Hibernation
->>>>>>> eff0dc2ef2ddbe8e32f31ab6cbf624c406a4ec32
 - [ ] Fingerprint reader
 
 
 
 <strong>Untested</strong>
 
-- [ ] SD Card reader
 
 
 
