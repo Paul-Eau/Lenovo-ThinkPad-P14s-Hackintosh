@@ -1,5 +1,5 @@
 # Lenovo-ThinkPad-P14s-Hackintosh
- 
+
 ## Hardware configuration
 
 | Category  | Component                                            | Note                                                         |
@@ -19,10 +19,11 @@
 
 ## Software Configuration
 
-| Component      | Version |
-| -------------- | ------- |
-| macOS Monterey | 12.0.1  |
-| OpenCore       | 0.7.9   |
+| Component      | Version       |
+| -------------- | ------------- |
+| macOS Monterey | 12.0.1        |
+| SMBIOS         | MacBookAir9,1 |
+| OpenCore       | 0.7.9         |
 
 
 
@@ -30,7 +31,7 @@
 ## Status
 
 
- 
+
 <strong>Working ✅</strong>
 
 - [x] Battery percentage
@@ -47,11 +48,11 @@
 - [x] CPU power management
 - [x] GPU UHD hardware acceleration / performance 
 - [x] iMessage, FaceTime, App Store, iTunes Store
-- [x] Keyboard `Volume / brightness hotkeys / backlit hotkeys`
-- [x] Audio -  `ALC 257`
-- [x] Sleep/Wake `screen flickering after wake up`
-- [x] TouchPad `1-3 fingers swipe gestures`
-- [x] TrackPoint  `not smooth as Windows`
+- [x] Keyboard 
+- [x] Speakers
+- [x] Sleep/Wake 
+- [x] TouchPad 
+- [x] TrackPoint  
 - [x] USB Ports 
 - [x] Camera 
 - [x] Backlit keyboard
@@ -59,7 +60,7 @@
 
 
 
-  
+
 <strong>Not working ⚠️</strong>
 
 - [ ] Microphone (in and external)
@@ -72,9 +73,9 @@
 
 <strong>Untested</strong>
 
-
+- [ ] USB-C External display
 
 
 <strong>Problem</strong>
 
-- Using OneKeyHiDpi for HiDpi resolution : underscaled and screen blinking black after sleep
+- Using OneKeyHiDpi for HiDpi resolution : underscaled and screen blinking black after sleep![Screenshot 2022-04-08 at 12.41.02](/Users/paulsolbes/Desktop/Screenshot 2022-04-08 at 12.41.02.png)
