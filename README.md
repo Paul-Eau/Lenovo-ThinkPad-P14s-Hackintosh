@@ -58,7 +58,7 @@
 
 <strong>Not working ⚠️</strong>
 
-- [ ] Inline microphone
+- [ ] Internal microphone
 - [ ] Airdrop
 - [ ] Hibernation (desactivated)
 - [ ] Fingerprint reader
