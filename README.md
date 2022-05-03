@@ -22,7 +22,7 @@
 | Component      | Version       |
 | -------------- | ------------- |
 | macOS Monterey | 12.0.1        |
-| SMBIOS         | MacBookAir9,1 |
+| SMBIOS         | MacBookPro16,3|
 | OpenCore       | 0.7.9         |
 
 
