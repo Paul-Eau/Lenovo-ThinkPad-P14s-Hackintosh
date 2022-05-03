@@ -37,7 +37,7 @@
 - [x] Battery percentage
 - [x] Bluetooth - Intel Wireless AX201 
 - [x] Wifi - Intel Wireless AX201
-- [x] CPU power management (<1 W at IDLE)
+- [x] CPU power management (<2 W at IDLE)
 - [x] iGPU UHD hardware acceleration / performance 
 - [x] iServices
 - [x] Sleep/Wake 
@@ -50,6 +50,7 @@
 - [x] USB Ports 
 - [x] Camera
 - [x] SD Card reader 
+- [x] SmartCard Reader
 - [x] Backlit keyboard
 - [x] External display over HDMI
 
@@ -73,6 +74,7 @@
 <strong>Problem</strong>
 
 - Using OneKeyHiDPI for HiDPI resolution : underscaled and screen blinking black after sleep
+- No HDMI output after wake
 
 
 ![about this mac](https://user-images.githubusercontent.com/52856465/162455103-23224e4f-fa50-4dfa-8e47-155405b4207b.png)
