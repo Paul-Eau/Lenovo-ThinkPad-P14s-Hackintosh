@@ -9,7 +9,7 @@
 | SSD       | WD SN550 256GB                                       |                                                              |
 | Screen    | 14" FHD 1920x1080                                    |                                                              |
 | Memory    | 16GB / 2666MHz DDR4                                  |                                                              |
-| Battery   | Integrated Li-Polymer 50Wh                           | `~ 4h30 of battery life, maybe it could be better `          |
+| Battery   | Integrated Li-Polymer 50Wh                           | `~ 3h30 of battery life, maybe it could be better `          |
 | Camera    | 720p Camera                                          |                                                              |
 | Wifi & BT | Intel AX 201                                         |                                                              |
 | Input     | PS2 Keyboard                                         | `Volume and microphone hotkeys / brightness hotkeys / backlit hotkeys`                                                              |
