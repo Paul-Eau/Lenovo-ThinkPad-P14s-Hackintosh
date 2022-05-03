@@ -71,7 +71,7 @@
 - [ ] USB-C External display
 
 
-<strong>Problem</strong>
+<strong>Problems</strong>
 
 - Using OneKeyHiDPI for HiDPI resolution : underscaled and screen blinking black after sleep
 - No HDMI output after wake
