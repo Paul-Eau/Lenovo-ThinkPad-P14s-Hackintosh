@@ -4,15 +4,15 @@
 
 | Category  | Component                                            | Note                                                         |
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------ |
-| CPU       | Intel Core i7-10510U                                 |                                                            |
+| CPU       | Intel Core i7-10510U                                 |                                                              |
 | GPU       | Intel UHD 620                                        |                                                              |
 | SSD       | WD SN550 256GB                                       |                                                              |
 | Screen    | 14" FHD 1920x1080                                    |                                                              |
 | Memory    | 16GB / 2666MHz DDR4                                  |                                                              |
-| Battery   | Integrated Li-Polymer 50Wh                           | `~ 4h30 of battery life, maybe it could be better `          |
+| Battery   | Integrated Li-Polymer 51Wh                           | `~ 4h30 of battery life, maybe it could be better `          |
 | Camera    | 720p Camera                                          |                                                              |
 | Wifi & BT | Intel AX 201                                         |                                                              |
-| Input     | PS2 Keyboard                                         | `Volume and microphone hotkeys / brightness hotkeys / backlit hotkeys`                                                              |
+| Input     | PS2 Keyboard                                         | `Volume and microphone hotkeys / brightness hotkeys / backlit hotkeys`|
 | Input     | Synaptics SMBUS TrackPad                             | `Multi-point fingers gestures works perfectly`               |
 | Input     | SMBUS TrackPoint                                     | `Work perfectly : same feeling as on Windows 10`             |
 | Audio     | Realtek ALC 257                                      |                                                              |
@@ -21,7 +21,7 @@
 
 | Component      | Version       |
 | -------------- | ------------- |
-| macOS Monterey | 12.0.1        |
+| macOS Monterey | 12.3        |
 | SMBIOS         | MacBookAir9,1 |
 | OpenCore       | 0.7.9         |
 
@@ -58,10 +58,10 @@
 
 <strong>Not working ⚠️</strong>
 
-- [ ] Internal microphone
-- [ ] Airdrop
+- [ ] Internal microphone `Dig in Intel Smart Sound Technology (Intel SSDT). Incompatible with macOS ? `
+- [ ] Airdrop `Buy AzureWave AW-CB162NF M.2 Card`
 - [ ] Hibernation (desactivated)
-- [ ] Fingerprint reader
+- [ ] Fingerprint reader `Not compatible with macOS`
 
 
 
@@ -72,7 +72,32 @@
 
 <strong>Problem</strong>
 
-- Using OneKeyHiDPI for HiDPI resolution : underscaled and screen blinking black after sleep
+- Using OneKeyHiDPI for HiDPI resolution : underscaled (and screen blinking black) after sleep
+
+
+## ACPI - SSDT
+
+| SSDT Name | Note                                                 |
+| --------- | ---------------------------------------------------- | 
+| SSDT-AC       |                                  |                                                              
+| SSDT-BAT0       | Battery indicator read-out                                        | 
+| SSDT-DGPU       | Disable dGPU                                       | 
+| SSDT-DMAC |                                    | 
+| SSDT-ECRW    | Allow EC read and write                                   | 
+| SSDT-GPI0 |                            | 
+| SSDT-GPRW |                                           | 
+| SSDT-HPET |                                          | 
+| SSDT-INIT | Init for Darwin OS                                         | 
+| SSDT-MCHC |                              | 
+| SSDT-NTFY | QXX Methods                                    | 
+| SSDT-PMCR |                                       |           
+| SSDT-PNFL | Built-in display backlight control                           | 
+| SSDT-PWRB |                                           | 
+| SSDT-RHUB |                                          | 
+| SSDT-SBUS | Enabled SMBUS support for macOS                                  | 
+| SSDT-TMPX | Temperature sensors                           | 
+| SSDT-XCPM | Native CPU power management                                     | 
+| SSDT-YVPC | For yogaSMC                                     |
 
 
 ![about this mac](https://user-images.githubusercontent.com/52856465/162455103-23224e4f-fa50-4dfa-8e47-155405b4207b.png)
