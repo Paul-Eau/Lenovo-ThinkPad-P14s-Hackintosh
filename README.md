@@ -6,7 +6,7 @@
 | --------- | ---------------------------------------------------- | ------------------------------------------------------------ |
 | CPU       | Intel Core i7-10510U                                 |                                                            |
 | GPU       | Intel UHD 620                                        |                                                              |
-| SSD       | WD SN550 256GB                                       |                                                              |
+| SSD       | Samsung 980 500 Go                                       |                                                              |
 | Screen    | 14" FHD 1920x1080                                    |                                                              |
 | Memory    | 16GB / 2666MHz DDR4                                  |                                                              |
 | Battery   | Integrated Li-Polymer 50Wh                           | `~ 3h30 of battery life, maybe it could be better `          |
