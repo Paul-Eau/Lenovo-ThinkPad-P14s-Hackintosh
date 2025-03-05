@@ -120,11 +120,9 @@ Dual boot with Windows / Linux is still possible but in this case, OpenCore only
 | SSDT-XSPI        | Adds Intel PCH SPI Controller         	 |
 
 
-
-
+## Battery life
 
 ![power consumption]([IMG]/power.png)
-![about this mac]([IMG]/aboutthismac.png)
 
 
 ## Notes
@@ -132,11 +130,11 @@ Dual boot with Windows / Linux is still possible but in this case, OpenCore only
 - `AML` (**A**CPI **M**achine **L**anguage)
 
 ## References
-- Dortania guide : https://dortania.github.io/OpenCore-Install-Guide/
-- OpenCore configuration guide : https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
-- OC Little translated https://github.com/5T33Z0/OC-Little-Translated/tree/main
-- OC Book (CN) : https://ocbook.tlhub.cn/
-- Common SSDT usage : https://elitemacx86.com/threads/common-ssdt-usage-for-macos.1182/
-- X1C6 hackintosh EFI from tylernguyen : https://github.com/tylernguyen/x1c6-hackintosh/tree/main + docs : https://tylernguyen.github.io/x1c6-hackintosh/#macos-continuity
-- OpenCore patching guide : https://github.com/jsassu20/OpenCore-HotPatching-Guide/tree/master
-- ACPI Specifications : https://uefi.org/sites/default/files/resources/ACPI_Spec_6.5a_Final.pdf
+- [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [OpenCore configuration guide](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
+- [OC Little translated](https://github.com/5T33Z0/OC-Little-Translated/tree/main)
+- [OC Book (CN)](https://ocbook.tlhub.cn/)
+- [Common SSDT usage](https://elitemacx86.com/threads/common-ssdt-usage-for-macos.1182/)
+- [X1C6 hackintosh EFI from tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh/tree/main) +[docs](https://tylernguyen.github.io/x1c6-hackintosh/)
+- [OpenCore patching guide](https://github.com/jsassu20/OpenCore-HotPatching-Guide/tree/master)
+- [ACPI Specifications](https://uefi.org/sites/default/files/resources/ACPI_Spec_6.5a_Final.pdf)
