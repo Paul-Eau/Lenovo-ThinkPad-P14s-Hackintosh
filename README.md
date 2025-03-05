@@ -1,4 +1,4 @@
-# Lenovo ThinkPad P14s/T14 Hackintosh V3
+# Lenovo ThinkPad P14s/T14 Gen1 Hackintosh V3
 
 Two versions in this repository:
 - DEBUG : for troubleshooting and optimizing EFI, separated SSDT
